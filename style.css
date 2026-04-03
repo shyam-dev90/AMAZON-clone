@@ -1,13 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgb(142, 58, 58);
 }
 
 .navbar{
     display: flex;
+    align-items: center;
+    gap: 18px;
+    background-color: #131921;
 }
 
 .logo{
     width: 8vw;
+   
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+     margin-top: 5px;
+    margin-left: 10px;
 }
 
 .location{
@@ -28,8 +44,8 @@ body{
 }
 
 .search-bar{
-    width: 40vw;
-    height: 33px;
+    width: 750px;
+    height: 40px;
     font-size: 15px;
     outline: none;
     border: none;
@@ -46,7 +62,7 @@ body{
     color: rgba(0, 0, 0, 0.484); 
     font-size: 15px; 
     background-color: #d8d5d5;
-    height: 35px;
+    height: 40px;
     width: 45px;
     display: flex;
     align-items: center;
@@ -60,7 +76,7 @@ body{
     
 }
 .search-icon-container{
-    height: 35px;
+    height: 40px;
     width: 40px;
     display: flex;
     align-items: center;
@@ -68,4 +84,78 @@ body{
     background-color: #f8bd19;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flag-icon{
+    width: 25px;
+}
+.language-contant p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-right-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content-1 p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+}
+.right-content-2 p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+.cart-icon{
+    width: 100px;
+}
+
+.navbar-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+}
+
+.navbar-2-list{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-2-list li{
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+}
+
+.lines-icon{
+    width: 15px;
+    height: 10px;
+}
+
+.all-list{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+.offer-image{
+    height: 40px;
 }
