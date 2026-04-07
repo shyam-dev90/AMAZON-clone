@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(142, 58, 58);
+    background-color: #ffffff;
 }
 
 .navbar{
@@ -158,4 +158,43 @@ body{
 
 .offer-image{
     height: 40px;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+.product-image{
+    height: 150px;
+}
+
+.product-images{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    align-items: center;
+    justify-items: center;
+    gap: 8px;
+}
+.card-head{
+    font-size: 21px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 700;
+    color: #0f1111;
+}
+.card-foot{
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #2162a1;
+    cursor: pointer;
+}
+
+.image-2{
+    width: 150px;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
 }
